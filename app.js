@@ -8,8 +8,6 @@ const passport = require("passport");
 const linuxQuestions = require("./routes/api/linuxQuestions");
 var port = process.env.PORT || 5000;
 
-let two = 2;
-
 const mongoose = require("mongoose");
 
 //MongoDB configuration
